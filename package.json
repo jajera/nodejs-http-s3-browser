@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-http-s3-browser",
+  "version": "1.0.0",
+  "description": "Simple Node.js-based S3 browser using native HTTPS to list public bucket contents",
+  "main": "server.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node tests/server.test.cjs",
+    "build": "echo \"Nothing to build\"",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jajera/nodejs-http-s3-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jajera/nodejs-http-s3-browser/issues"
+  },
+  "homepage": "https://github.com/jajera/nodejs-http-s3-browser#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0"
+  }
+}
